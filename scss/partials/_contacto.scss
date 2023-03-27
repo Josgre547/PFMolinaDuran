@@ -1,0 +1,22 @@
+.formulario {
+    div{
+        height: 25%;
+        display: flex;
+        justify-content: center;
+
+        input{
+            height: 50%;
+            width: 50%;
+        }
+
+        textarea{
+            height: 100%;
+            width: 50%;
+        }
+    }
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}

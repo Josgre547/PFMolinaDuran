@@ -1,0 +1,24 @@
+.tituloPrincipal{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/Fondo\ de\ la\ pagina.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parrafoContainer{
+    display: flex;
+    margin-right: 10PX;
+    margin-left: 10px;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+
+    img{
+        height: 100%;
+        width: 90%;
+    }
+}

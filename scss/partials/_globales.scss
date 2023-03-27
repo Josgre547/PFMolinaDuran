@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size:62.5%;
+}
+
+p{
+    font-size: 25px
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    font-size: 7rem;
+}
+
+.logo_wp{
+    height: 8rem;
+    width: 8rem;
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+
+    .img_wp{
+    height: 100%;
+    width: 100%;
+    }
+}

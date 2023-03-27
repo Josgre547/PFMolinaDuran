@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    justify-content: flex-baseline;
+   }
+
+   .li_logos{
+    display: flex;
+    justify-content: flex-end;
+
+    li{
+        height: 5rem;
+        list-style: none;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+}
+
+   .logos_footer{
+    height: 50px;
+    width: 50px;
+   }
