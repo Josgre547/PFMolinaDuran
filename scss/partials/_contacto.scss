@@ -1,8 +1,15 @@
+.contacto_contenido{
+    height: 90vh;
+    width: 99vw;
+}
+
 .formulario {
     div{
         height: 25%;
         display: flex;
         justify-content: center;
+        align-content: space-around;
+        margin-left: 5vw;
 
         input{
             height: 50%;
@@ -19,4 +26,5 @@
 .mapa{
     display: flex;
     justify-content: center;
+    align-content: center;
 }

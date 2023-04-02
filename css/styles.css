@@ -1,36 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
+.cards_container {
+  width: 100vw;
 }
-
-html {
-  font-size: 62.5%;
-}
-
-p {
-  font-size: 25px;
-}
-
-h1 {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  text-align: center;
-  font-size: 7rem;
-}
-
-.logo_wp {
-  height: 8rem;
-  width: 8rem;
-  position: fixed;
-  bottom: 20px;
-  right: 2%;
-}
-.logo_wp .img_wp {
-  height: 100%;
-  width: 100%;
-}
-
 .cards_container article {
   display: flex;
   justify-content: center;
@@ -132,9 +102,15 @@ svg {
   width: 90%;
 }
 
+.contenidoIndex {
+  width: 99vw;
+}
+
 .footer {
   display: flex;
-  justify-content: flex-baseline;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  width: 100vw;
 }
 
 .li_logos {
@@ -153,10 +129,17 @@ svg {
   width: 50px;
 }
 
+.contacto_contenido {
+  height: 90vh;
+  width: 99vw;
+}
+
 .formulario div {
   height: 25%;
   display: flex;
   justify-content: center;
+  align-content: space-around;
+  margin-left: 5vw;
 }
 .formulario div input {
   height: 50%;
@@ -170,6 +153,7 @@ svg {
 .mapa {
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 
 .container {
@@ -178,7 +162,6 @@ svg {
   justify-content: center;
   align-items: center;
   max-width: 80%;
-  margin: auto;
 }
 
 .pregunta {
@@ -203,6 +186,64 @@ svg {
 .respuesta.activo {
   height: auto;
   opacity: 1;
+}
+
+.preguntas {
+  height: 75vh;
+  margin-left: 1%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  width: 99vw;
+  height: 100%;
+}
+
+p {
+  font-size: 25px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 7rem;
+}
+
+.logo_wp {
+  height: 8rem;
+  width: 8rem;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+.logo_wp .img_wp {
+  height: 100%;
+  width: 100%;
+}
+
+.tituloSecundario {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 7rem;
+  margin-left: 4rem;
+}
+
+header {
+  width: 99vw;
+}
+
+.cuerpo {
+  height: 90vh;
+  width: 99%;
 }
 
 /*# sourceMappingURL=styles.css.map */
